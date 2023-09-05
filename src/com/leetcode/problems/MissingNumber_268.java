@@ -6,6 +6,7 @@ class MissingNumber_268 {
 		System.out.println(missingNumber(nums));
 	}
 
+	// Арифметическая прогрессия прогрессия
 	public static int missingNumber(int[] nums) {
 		int n = nums.length;
 		return n * (n + 1) / 2 - sum(nums);

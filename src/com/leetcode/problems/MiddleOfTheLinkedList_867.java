@@ -39,7 +39,7 @@ public class MiddleOfTheLinkedList_867 {
 		}
 		ListNode slow = head;
 		ListNode fast = head;
-		while (fast !=  null && fast.next != null) {
+		while (fast != null && fast.next != null) {
 			fast = fast.next.next; //2 steps
 			slow = slow.next; //1 step
 		}

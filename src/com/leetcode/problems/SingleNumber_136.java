@@ -5,8 +5,9 @@ import java.util.Map;
 
 public class SingleNumber_136 {
 	public static void main(String[] args) {
-		int[] nums = new int[]{2,2,2};
+		int[] nums = new int[]{2,2,2,1};
 		System.out.println(singleNumber(nums));
+		//System.out.println(XorSingleNumber(nums));
 	}
 
 	public static int singleNumber(int[] nums) {
@@ -25,6 +26,13 @@ public class SingleNumber_136 {
 				return item.getKey();
 		}
 		return 0;
-		
+	}
+	
+	public static int XorSingleNumber(int[] nums) {
+		int mask = 0;
+		for (int num : nums) {
+			mask ^= num;
+		}
+		return mask;
 	}
 }

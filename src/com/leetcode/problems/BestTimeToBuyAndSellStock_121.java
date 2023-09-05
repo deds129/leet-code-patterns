@@ -11,6 +11,7 @@ public class BestTimeToBuyAndSellStock_121 {
 		int[] testPrices2 = {7,6,4,8,5};
 		int[] testPrices3 = {1,6};
 		System.out.println(maxProfit(testPrices2));
+		System.out.println(naiveMaxProfit(testPrices2));
 	}
 
 	/*
@@ -18,7 +19,7 @@ public class BestTimeToBuyAndSellStock_121 {
 	
 	Вместо использования вложенных циклов и одной операции,
 	зачастую можно использовать один цикл и несколько операций в цикле,
-	одна из операций выполняется для для следующей итерации.
+	одна из операций выполняется для следующей итерации.
 	
 	Т.е. в данном кейсе 
 	1) 2 уровня вложенности цикла + 1 операция

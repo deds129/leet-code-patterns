@@ -20,6 +20,8 @@ public class CyclicSort_448 {
 			} else
 				++i;
 		}
+
+		//System.out.println(Arrays.toString(nums));
 		
 		List<Integer> returnedList = new ArrayList<>();
 
