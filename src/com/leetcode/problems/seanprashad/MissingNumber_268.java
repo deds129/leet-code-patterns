@@ -1,4 +1,4 @@
-package com.leetcode.problems;
+package com.leetcode.problems.seanprashad;
 
 class MissingNumber_268 {
 	public static void main(String[] args) {

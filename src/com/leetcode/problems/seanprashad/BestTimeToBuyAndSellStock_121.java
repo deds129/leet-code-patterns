@@ -1,4 +1,4 @@
-package com.leetcode.problems;
+package com.leetcode.problems.seanprashad;
 
 import java.util.Arrays;
 import java.util.Collections;

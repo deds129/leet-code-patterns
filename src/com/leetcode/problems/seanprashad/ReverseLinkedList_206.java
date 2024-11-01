@@ -1,4 +1,4 @@
-package com.leetcode.problems;
+package com.leetcode.problems.seanprashad;
 
 public class ReverseLinkedList_206 {
 	public static void main(String[] args) {

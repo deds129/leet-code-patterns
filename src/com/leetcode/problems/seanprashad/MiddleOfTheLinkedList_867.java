@@ -1,4 +1,4 @@
-package com.leetcode.problems;
+package com.leetcode.problems.seanprashad;
 
 // https://leetcode.com/problems/middle-of-the-linked-list/
 public class MiddleOfTheLinkedList_867 {

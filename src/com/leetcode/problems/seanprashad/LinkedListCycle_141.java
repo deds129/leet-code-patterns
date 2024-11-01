@@ -1,4 +1,4 @@
-package com.leetcode.problems;
+package com.leetcode.problems.seanprashad;
 
 // https://leetcode.com/problems/linked-list-cycle/
 // Алгоритм Зайца и Черепашки, Floyd and Turtle 

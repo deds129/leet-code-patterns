@@ -1,4 +1,4 @@
-package com.leetcode.problems;
+package com.leetcode.problems.seanprashad;
 
 
 //source: https://leetcode.com/problems/range-sum-query-immutable/

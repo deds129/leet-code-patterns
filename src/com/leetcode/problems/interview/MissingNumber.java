@@ -1,4 +1,4 @@
-package com.leetcode.problems.livecoding_interviews;
+package com.leetcode.problems.interview;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -11,7 +11,7 @@ import java.util.Map;
 3->3
 5->не выводим
  */
-public class LiveCoding1 {
+public class MissingNumber {
 	public static void main(String[] args) {
 		int[] nums = new int[]{5, 3, 1, 2, 1, 2, 3, 3};
 		missingNumber(nums);
@@ -19,13 +19,9 @@ public class LiveCoding1 {
 
 	public static void missingNumber(int[] nums) {
 		//1 - num, 2 - count
-		Map<Integer, Integer> map = new HashMap<Integer, Integer>();
-		for (int i = 0; i < nums.length; i++) {
-			if (map.get(nums[i]) == null) {
-				map.put(nums[i], 1);
-			} else {
-				map.put(nums[i], map.get(nums[i]) + 1);
-			}
+		Map<Integer, Integer> map = new HashMap<>();
+		for (int num : nums) {
+			map.merge(num, 1, Integer::sum);
 		}
 
 		for (Map.Entry<Integer, Integer> item : map.entrySet()) {
